@@ -1,5 +1,6 @@
 import Home from './components/Home';
 
+/*  */
 const cloudStyle = {
   backgroundImage: `
     radial-gradient(ellipse 200px 80px at 15% 30%, rgba(180,160,200,0.4) 0%, transparent 70%),
@@ -13,7 +14,7 @@ const bgStyle = {
   background:
     'linear-gradient(160deg, #2c2f6b 0%, #3a3080 15%, #5a4a8a 30%, #7a5a9a 45%, #8a8ac0 65%, #9a88b0 85%, #8a78a0 100%)',
 };
-
+/*  */
 function App() {
   return (
     <>
@@ -26,5 +27,4 @@ function App() {
     </>
   );
 }
-
 export default App;
