@@ -66,14 +66,14 @@ const Search = () => {
                 (setSearch(e.target.value), setSuggestion(true));
               }}
               placeholder="Search for any city worldwide..."
-              className="text-white placeholder:text-white/40 text-[14px] py-2 pl-7 pr-10  border border-white/20 rounded-2xl focus:rounded-b-none! focus:border-white/40 focus-within:outline-none bg-white/10 backdrop:backdrop-blur-3xl w-full h-full"
+              className="text-white placeholder:text-white/40 text-[14px] py-3 pl-7 pr-10  border border-white/20 rounded-3xl focus:rounded-b-none! focus:border-white/40 focus-within:outline-none bg-white/10 backdrop:backdrop-blur-3xl w-full h-full"
             />
             {/* <X
                 size={18}
                 className="text-white/40 absolute right-3 bottom-1/4 cursor-pointer"
               /> */}
             <MapPin
-              size={18}
+              size={24}
               onClick={() => weatherByCoords()}
               className="text-white absolute right-3 bottom-1/4 cursor-pointer "
             />
@@ -131,7 +131,7 @@ const Search = () => {
         </div>
         {/* unit chenge button local state */}
         <div>
-          <div className="w-18  h-8 rounded-full border border-white/20  bg-white/10 backdrop:backdrop-blur-3xl">
+          <div className="w-20  h-10 rounded-full border border-white/20  bg-white/10 backdrop:backdrop-blur-3xl">
             <button
               onClick={() => setUnit('C')}
               className={`text-[14px] w-1/2 h-full rounded-full cursor-pointer ${unit === 'C' ? 'bg-white text-gray-600' : 'text-white/40 '}`}
