@@ -3,7 +3,7 @@
 A simple weather app built with React that shows real-time weather data for any city worldwide.
 
 ## Live Demo
-[Weather Lens](#)
+[Weather Lens](https://alamin-weather-lens.vercel.app/)
 
 ---
 
@@ -26,13 +26,3 @@ npm run dev
 ```
 
 Add a `.env.local` file:
-```
-VITE_API_KEY=your_openweathermap_api_key
-VITE_BASE_URL=https://api.openweathermap.org/data/2.5
-VITE_GEO_URL=https://api.openweathermap.org/geo/1.0
-```
-
----
-
-## Author
-Made by **Alamin** — [@yourusername](https://github.com/alamin-one)

@@ -21,7 +21,6 @@ const Search = () => {
       if (search.length > 1) {
         const q = await getSearchSuggestionByquary(search.trim());
         setshoSuggestion(q);
-        console.log(q)
       }
     }, 100);
     // eslint-disable-next-line react-hooks/exhaustive-deps
