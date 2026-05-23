@@ -1,4 +1,4 @@
-/* Base URL Geo URL API Key */
+/* Base URL, Geo URL ,API Key */
 const API_KEY = import.meta.env.VITE_API_KEY;
 const BASE_URL = import.meta.env.VITE_BASE_URL;
 const GEO_URL = import.meta.env.VITE_GEO_URL;
@@ -43,10 +43,10 @@ export const getCurrentWeatherByCity = async city => {
 };
 
 /* get Current Weather ByCoords */
-export const getCurrentWeatherByCoords = async (lat, lon) => {
+export const getCurrentWeatherByCoords = async (latitude, longitude) => {
   try {
     const response = await fetch(
-      `${BASE_URL}/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}&units=metric`,
+      `${BASE_URL}/weather?lat=${latitude}&lon=${longitude}&appid=${API_KEY}&units=metric`,
     );
     if (!response.ok) {
       if (response.status === 401) {
@@ -63,6 +63,7 @@ export const getCurrentWeatherByCoords = async (lat, lon) => {
     if (!data.dt) {
       data.dt = Math.floor(new Date.now() / 1000);
     }
+    return data;
   } catch (err) {
     if (err instanceof TypeError && err.message.includes('fetch')) {
       throw new Error(
