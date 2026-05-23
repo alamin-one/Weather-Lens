@@ -80,7 +80,7 @@ const Search = () => {
           </form>
           {/* search suggation map data  */}
           {suggestion && (
-            <div className=" border border-white/20 rounded-b-xl bg-white/20 backdrop:backdrop-blur-3xl overflow-hidden w-full    absolute top-9.25 z-10">
+            <div className=" border border-white/20 rounded-b-xl bg-[#343076]/90 backdrop:backdrop-blur-3xl overflow-hidden w-full absolute top-9.25 z-10">
               {shoSuggestion.map((itemS, indexS) => (
                 <div
                   key={indexS}
