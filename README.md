@@ -109,7 +109,7 @@ http://localhost:5173
 
 ##  Screenshot
 
-![Weather Lens](https://github.com/alamin-one/Weather-Lens/blob/master/public/weather.png)
+![Weather Lens](./public/weather.webp)
 
 ---
 
