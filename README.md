@@ -13,7 +13,7 @@ A modern and responsive weather application built with **React** that provides *
 
 ##  Live Demo
 
-**Live Preview:**[ https://your-project.vercel.app](https://alamin-weather-lens.vercel.app/)
+**Live Preview:**(https://alamin-weather-lens.vercel.app/)
 
 ---
 
