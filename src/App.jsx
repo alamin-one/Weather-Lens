@@ -3,7 +3,8 @@ import ContextProvider from './context/ContextProvider';
 /*  */
 
 const bgStyle = {
-   'linear-gradient(160deg, #0B1728 0%, #14213d 15%, #1d2d52 30%, #2a3d6b 45%, #3a4d80 65%, #3a4d80 85%, #3a4d80 100%)',
+   background:
+  'linear-gradient(160deg, #0B1728 0%, #14213d 15%, #1d2d52 30%, #2a3d6b 45%, #3a4d80 65%, #3a4d80 85%, #3a4d80 100%)',
 };
 /*  */
 function App() {
